@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D5FD15419455651000A7244 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5FD15319455651000A7244 /* main.m */; };
+		0D5FD15719455651000A7244 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5FD15619455651000A7244 /* AppDelegate.m */; };
+		0D5FD15A19455651000A7244 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5FD15919455651000A7244 /* ViewController.m */; };
+		0D5FD15D19455651000A7244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5FD15B19455651000A7244 /* Main.storyboard */; };
+		0D5FD15F19455651000A7244 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5FD15E19455651000A7244 /* Images.xcassets */; };
+		0D5FD16B19455651000A7244 /* MobreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5FD16A19455651000A7244 /* MobreTests.m */; };
+		0D5FD17819455941000A7244 /* EFRHatenaParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5FD17719455941000A7244 /* EFRHatenaParser.m */; };
+		0D5FD17D194588A3000A7244 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5FD17C194588A3000A7244 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D5FD16519455651000A7244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D5FD14619455650000A7244 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D5FD14D19455650000A7244;
+			remoteInfo = Mobre;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D5FD14E19455651000A7244 /* Mobre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D5FD15219455651000A7244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D5FD15319455651000A7244 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D5FD15519455651000A7244 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D5FD15619455651000A7244 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D5FD15819455651000A7244 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0D5FD15919455651000A7244 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0D5FD15C19455651000A7244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D5FD15E19455651000A7244 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0D5FD16419455651000A7244 /* MobreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D5FD16919455651000A7244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D5FD16A19455651000A7244 /* MobreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobreTests.m; sourceTree = "<group>"; };
+		0D5FD17619455941000A7244 /* EFRHatenaParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFRHatenaParser.h; sourceTree = "<group>"; };
+		0D5FD17719455941000A7244 /* EFRHatenaParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFRHatenaParser.m; sourceTree = "<group>"; };
+		0D5FD179194562BE000A7244 /* EFRDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFRDefine.h; sourceTree = "<group>"; };
+		0D5FD17A194566BA000A7244 /* Mobre-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mobre-Prefix.pch"; sourceTree = "<group>"; };
+		0D5FD17B194588A3000A7244 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0D5FD17C194588A3000A7244 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D5FD14B19455650000A7244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D5FD16119455651000A7244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D5FD14519455650000A7244 = {
+			isa = PBXGroup;
+			children = (
+				0D5FD15019455651000A7244 /* Mobre */,
+				0D5FD16719455651000A7244 /* MobreTests */,
+				0D5FD14F19455651000A7244 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D5FD14F19455651000A7244 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D5FD14E19455651000A7244 /* Mobre.app */,
+				0D5FD16419455651000A7244 /* MobreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D5FD15019455651000A7244 /* Mobre */ = {
+			isa = PBXGroup;
+			children = (
+				0D5FD17519455903000A7244 /* Models */,
+				0D5FD15519455651000A7244 /* AppDelegate.h */,
+				0D5FD15619455651000A7244 /* AppDelegate.m */,
+				0D5FD15819455651000A7244 /* ViewController.h */,
+				0D5FD15919455651000A7244 /* ViewController.m */,
+				0D5FD15B19455651000A7244 /* Main.storyboard */,
+				0D5FD15E19455651000A7244 /* Images.xcassets */,
+				0D5FD15119455651000A7244 /* Supporting Files */,
+				0D5FD17B194588A3000A7244 /* DetailViewController.h */,
+				0D5FD17C194588A3000A7244 /* DetailViewController.m */,
+			);
+			path = Mobre;
+			sourceTree = "<group>";
+		};
+		0D5FD15119455651000A7244 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D5FD15219455651000A7244 /* Info.plist */,
+				0D5FD15319455651000A7244 /* main.m */,
+				0D5FD17A194566BA000A7244 /* Mobre-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D5FD16719455651000A7244 /* MobreTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D5FD16A19455651000A7244 /* MobreTests.m */,
+				0D5FD16819455651000A7244 /* Supporting Files */,
+			);
+			path = MobreTests;
+			sourceTree = "<group>";
+		};
+		0D5FD16819455651000A7244 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D5FD16919455651000A7244 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D5FD17519455903000A7244 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0D5FD17619455941000A7244 /* EFRHatenaParser.h */,
+				0D5FD17719455941000A7244 /* EFRHatenaParser.m */,
+				0D5FD179194562BE000A7244 /* EFRDefine.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D5FD14D19455650000A7244 /* Mobre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D5FD16E19455651000A7244 /* Build configuration list for PBXNativeTarget "Mobre" */;
+			buildPhases = (
+				0D5FD14A19455650000A7244 /* Sources */,
+				0D5FD14B19455650000A7244 /* Frameworks */,
+				0D5FD14C19455650000A7244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mobre;
+			productName = Mobre;
+			productReference = 0D5FD14E19455651000A7244 /* Mobre.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D5FD16319455651000A7244 /* MobreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D5FD17119455651000A7244 /* Build configuration list for PBXNativeTarget "MobreTests" */;
+			buildPhases = (
+				0D5FD16019455651000A7244 /* Sources */,
+				0D5FD16119455651000A7244 /* Frameworks */,
+				0D5FD16219455651000A7244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D5FD16619455651000A7244 /* PBXTargetDependency */,
+			);
+			name = MobreTests;
+			productName = MobreTests;
+			productReference = 0D5FD16419455651000A7244 /* MobreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D5FD14619455650000A7244 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = kazuma;
+				TargetAttributes = {
+					0D5FD14D19455650000A7244 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					0D5FD16319455651000A7244 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 0D5FD14D19455650000A7244;
+					};
+				};
+			};
+			buildConfigurationList = 0D5FD14919455650000A7244 /* Build configuration list for PBXProject "Mobre" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D5FD14519455650000A7244;
+			productRefGroup = 0D5FD14F19455651000A7244 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D5FD14D19455650000A7244 /* Mobre */,
+				0D5FD16319455651000A7244 /* MobreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D5FD14C19455650000A7244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5FD15D19455651000A7244 /* Main.storyboard in Resources */,
+				0D5FD15F19455651000A7244 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D5FD16219455651000A7244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D5FD14A19455650000A7244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5FD17D194588A3000A7244 /* DetailViewController.m in Sources */,
+				0D5FD15A19455651000A7244 /* ViewController.m in Sources */,
+				0D5FD15719455651000A7244 /* AppDelegate.m in Sources */,
+				0D5FD15419455651000A7244 /* main.m in Sources */,
+				0D5FD17819455941000A7244 /* EFRHatenaParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D5FD16019455651000A7244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5FD16B19455651000A7244 /* MobreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D5FD16619455651000A7244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D5FD14D19455650000A7244 /* Mobre */;
+			targetProxy = 0D5FD16519455651000A7244 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D5FD15B19455651000A7244 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D5FD15C19455651000A7244 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D5FD16C19455651000A7244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D5FD16D19455651000A7244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D5FD16F19455651000A7244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Mobre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0D5FD17019455651000A7244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Mobre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0D5FD17219455651000A7244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mobre.app/Mobre";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MobreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		0D5FD17319455651000A7244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mobre.app/Mobre";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MobreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D5FD14919455650000A7244 /* Build configuration list for PBXProject "Mobre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5FD16C19455651000A7244 /* Debug */,
+				0D5FD16D19455651000A7244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D5FD16E19455651000A7244 /* Build configuration list for PBXNativeTarget "Mobre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5FD16F19455651000A7244 /* Debug */,
+				0D5FD17019455651000A7244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0D5FD17119455651000A7244 /* Build configuration list for PBXNativeTarget "MobreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5FD17219455651000A7244 /* Debug */,
+				0D5FD17319455651000A7244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D5FD14619455650000A7244 /* Project object */;
+}
